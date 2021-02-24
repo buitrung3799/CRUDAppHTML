@@ -57,7 +57,7 @@ var crudApp = new function () {
             this.td = document.createElement('td');
             tr.appendChild(this.td);
             var labelCancel = document.createElement('label');
-            labelCancel.innerHTML = '✖';
+            labelCancel.innerHTML = '&#10006' ;
             labelCancel.setAttribute('onclick', 'crudApp.Cancel(this)');
             labelCancel.style.display = 'none';
             labelCancel.title = 'Cancel';
